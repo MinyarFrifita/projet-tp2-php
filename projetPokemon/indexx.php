@@ -1,5 +1,5 @@
 <?php
-require_once 'Autoloader.php';
+require_once '../Autoloader.php';
 Autoloader::register();
 
 function simulateCombat(Pokemon $p1, Pokemon $p2) {

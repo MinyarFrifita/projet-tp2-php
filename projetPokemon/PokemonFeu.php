@@ -1,5 +1,5 @@
 <?php
-require_once 'Autoloader.php';
+require_once '../Autoloader.php';
 Autoloader::register();
 class PokemonFeu extends Pokemon {
     protected function applyTypeEffectiveness(Pokemon $target, $damage) {
